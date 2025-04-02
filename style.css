@@ -1,0 +1,29 @@
+canvas {
+    border: 1px solid black;
+}
+
+.options {
+    position: absolute;
+    width: 98%;
+    bottom : 1rem;
+    gap: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.warn {
+    display: none;
+}
+
+.container {
+    display: block;
+}
+
+@media (pointer: coarse) {
+    .warn {
+        display: block;
+    }
+    .container {
+        display: none;
+    }
+  }
